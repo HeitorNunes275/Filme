@@ -1,18 +1,23 @@
-import './styles.css';
+import { Link } from "react-router-dom";
+import "./styles.css";
 
 function Form() {
-  
   const movie = {
     id: 1,
-    image: "https://www.themoviedb.org/t/p/w533_and_h300_bestv2/jBJWaqoSCiARWtfV0GlqHrcdidd.jpg",
+    image:
+      "https://www.themoviedb.org/t/p/w533_and_h300_bestv2/jBJWaqoSCiARWtfV0GlqHrcdidd.jpg",
     title: "The Witcher",
     count: 2,
-    score: 4.5
-};
+    score: 4.5,
+  };
 
   return (
     <div className="movie-form-container">
-      <img className="movie-movie-card-image" src={movie.image} alt={movie.title} />
+      <img
+        className="movie-movie-card-image"
+        src={movie.image}
+        alt={movie.title}
+      />
       <div className="movie-card-bottom-container">
         <h3>{movie.title}</h3>
         <form className="movie-form">
@@ -36,7 +41,9 @@ function Form() {
             </button>
           </div>
         </form>
-        <button className="btn btn-primary movie-btn mt-3">Cancelar</button>
+        <Link to="/">
+          <button className="btn btn-primary movie-btn mt-3">Cancelar</button>
+        </Link>
       </div>
     </div>
   );
