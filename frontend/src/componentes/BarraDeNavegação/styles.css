@@ -1,0 +1,30 @@
+header {
+    background-color: var(--color-primary);
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.Movie-barra-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+.Movie-organizar-foto {
+    display: flex;
+    align-items: center;
+}
+
+.Movie-organizar-nome {
+    margin: 0 0 0 10px;
+    font-weight: 700;
+    
+}
+
+.Movie-barra-nav h1 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 24px;
+}
