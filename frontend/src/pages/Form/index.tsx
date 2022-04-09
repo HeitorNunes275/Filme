@@ -1,14 +1,14 @@
 import './styles.css';
 
 function Form() {
+  
   const movie = {
     id: 1,
-    image:
-      "https://img.elo7.com.br/product/zoom/26776B4/big-poster-filme-homem-aranha-2-2004-lo01-tamanho-90x60-cm-marvel.jpg",
-    title: "Spider-Man 2",
+    image: "https://www.themoviedb.org/t/p/w533_and_h300_bestv2/jBJWaqoSCiARWtfV0GlqHrcdidd.jpg",
+    title: "The Witcher",
     count: 2,
-    score: 4.5,
-  };
+    score: 4.5
+};
 
   return (
     <div className="movie-form-container">
