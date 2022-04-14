@@ -1,4 +1,4 @@
-import { ReactComponent as Arrow } from 'assets/img/arrow.svg';
+import { ReactComponent as Arrow } from 'assets/imgs/Arrow.svg';
 import { MoviePage } from 'types/movie';
 import './styles.css';
 
